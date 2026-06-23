@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iMersFOW V4.0 - All-in-One WhatsApp Marketing & CRM</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <style>
+        body { font-family: 'Inter', sans-serif; background-color: #f8fafc; overflow-x: hidden; }
+        
+        /* Animasi Naik Turun (Floating) Keren */
+        @keyframes float {
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-20px); }
+            100% { transform: translateY(0px); }
+        }
+        @keyframes float-delayed {
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-15px); }
+            100% { transform: translateY(0px); }
+        }
+        
+        .animate-float { animation: float 5s ease-in-out infinite; }
+        .animate-float-delayed { animation: float-delayed 6s ease-in-out infinite; animation-delay: 2s; }
+        
+        /* Efek Gradient Text */
+        .text-gradient {
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            color: transparent;
+        }
+
+        /* Glassmorphism Element */
+        .glass-card {
+            background: rgba(255, 255, 255, 0.7);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.5);
+            box-shadow: 0 20px 40px -10px rgba(0,0,0,0.05);
+        }
+    </style>
+</head>
+<body class="antialiased text-slate-800">
+
+    <!-- NAVBAR -->
+    <nav class="fixed top-0 w-full z-50 transition-all duration-300 glass-card">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="flex items-center gap-2">
+                <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-rose-500 to-pink-600 flex items-center justify-center text-white shadow-lg">
+                    <i class="ph-fill ph-paper-plane-tilt text-2xl"></i>
+                </div>
+                <span class="font-extrabold text-2xl tracking-tight text-slate-900">iMers<span class="text-rose-600">FOW</span> <span class="text-xs bg-slate-100 text-slate-500 px-2 py-1 rounded-md ml-1">V4.0</span></span>
+            </div>
+            <div class="hidden md:flex gap-4">
+                <a href="#fitur" class="text-sm font-bold text-slate-600 hover:text-rose-500 transition px-4 py-2">Fitur V4.0</a>
+                <!-- GANTI LINK LOGIN DI BAWAH INI -->
+                <a href="[MASUKKAN_LINK_LOGIN_DI_SINI]" class="text-sm font-bold bg-slate-900 text-white px-6 py-2.5 rounded-xl hover:bg-slate-800 transition shadow-md">Login Dashboard</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section class="relative pt-32 pb-20 lg:pt-48 lg:pb-32 overflow-hidden bg-slate-50">
+        <!-- Dekorasi Background -->
+        <div class="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[400px] bg-gradient-to-r from-rose-200 to-blue-200 rounded-full blur-[100px] opacity-50 pointer-events-none"></div>
+
+        <div class="max-w-7xl mx-auto px-6 relative z-10 text-center flex flex-col items-center">
+            <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-rose-50 border border-rose-100 text-rose-600 text-xs font-bold mb-6 tracking-wide">
+                <span class="w-2 h-2 rounded-full bg-rose-500 animate-pulse"></span> UPDATE TERBARU V4.0
+            </div>
+            
+            <h1 class="text-4xl md:text-6xl lg:text-7xl font-extrabold tracking-tight mb-6 leading-tight max-w-4xl mx-auto">
+                Mesin Uang Otomatis dengan <span class="bg-gradient-to-r from-rose-500 to-indigo-600 text-gradient">WhatsApp & Smart CRM</span>
+            </h1>
+            
+            <p class="text-lg md:text-xl text-slate-500 mb-10 max-w-2xl mx-auto leading-relaxed font-medium">
+                Tingkatkan konversi penjualan Anda! Mulai dari Form Builder canggih, penangkapan leads otomatis, hingga Broadcast & Auto Follow-Up tanpa ribet. Semua data aman di Google Sheets Anda sendiri.
+            </p>
+            
+            <div class="flex flex-col sm:flex-row gap-4 justify-center w-full max-w-md mx-auto">
+                <!-- GANTI LINK TOMBOL UTAMA DI BAWAH INI -->
+                <a href="[MASUKKAN_LINK_CHECKOUT_DI_SINI]" class="w-full text-center px-8 py-4 bg-gradient-to-r from-rose-500 to-pink-600 hover:from-rose-600 hover:to-pink-700 text-white font-bold rounded-2xl shadow-xl shadow-rose-500/30 transition-transform transform hover:-translate-y-1 text-lg flex items-center justify-center gap-2">
+                    <i class="ph-bold ph-rocket-launch text-2xl"></i> Miliki Akses Sekarang
+                </a>
+            </div>
+
+            <!-- PLACEHOLDER HERO IMAGE (ANIMASI FLOATING) -->
+            <div class="w-full max-w-5xl mt-16 animate-float relative">
+                <div class="absolute -inset-1 bg-gradient-to-r from-rose-400 to-indigo-500 rounded-3xl blur opacity-20"></div>
+                <div class="relative bg-slate-900 w-full aspect-[16/9] md:aspect-[21/9] rounded-3xl border border-slate-800 shadow-2xl flex flex-col items-center justify-center overflow-hidden">
+                    <!-- ICON PLAY ATAU GAMBAR -->
+                    <i class="ph-fill ph-monitor-play text-slate-700 text-6xl mb-4"></i>
+                    <p class="text-slate-500 font-mono text-sm">[GAMBAR / VIDEO PREVIEW DASHBOARD]</p>
+                    <!-- INFO: Lu bisa hapus icon & p di atas, lalu ganti dengan tag <img src="..." class="w-full h-full object-cover"> -->
+                </div>
+
+                <!-- Floating Mini Cards Element -->
+                <div class="absolute -right-6 md:-right-12 top-20 glass-card p-4 rounded-2xl animate-float-delayed hidden md:flex items-center gap-3">
+                    <div class="w-10 h-10 bg-emerald-100 text-emerald-600 rounded-full flex items-center justify-center">
+                        <i class="ph-bold ph-check text-xl"></i>
+                    </div>
+                    <div>
+                        <p class="text-xs font-bold text-slate-800">Broadcast Terkirim</p>
+                        <p class="text-[10px] text-slate-500">1,245 Pesan</p>
+                    </div>
+                </div>
+                
+                <div class="absolute -left-6 md:-left-12 bottom-20 glass-card p-4 rounded-2xl animate-float hidden md:flex items-center gap-3">
+                    <div class="w-10 h-10 bg-blue-100 text-blue-600 rounded-full flex items-center justify-center">
+                        <i class="ph-bold ph-user-plus text-xl"></i>
+                    </div>
+                    <div>
+                        <p class="text-xs font-bold text-slate-800">Smart CRM</p>
+                        <p class="text-[10px] text-slate-500">New Lead Captured!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FEATURES SECTION -->
+    <section id="fitur" class="py-24 bg-white relative">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-16 max-w-2xl mx-auto">
+                <h2 class="text-3xl font-extrabold text-slate-900 mb-4">Ekosistem Otomatisasi Terlengkap</h2>
+                <p class="text-slate-500 font-medium">Bukan sekadar form biasa. iMersFOW membangun jalur otomatisasi dari klik pertama hingga kustomer membayar pesanan.</p>
+            </div>
+
+            <!-- Fitur 1 -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12 items-center mb-20">
+                <div class="order-2 md:order-1 space-y-6">
+                    <div class="w-14 h-14 bg-blue-50 text-blue-600 rounded-2xl flex items-center justify-center text-2xl shadow-sm">
+                        <i class="ph-fill ph-browser"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-slate-900">Drag & Drop Form Builder Pro</h3>
+                    <p class="text-slate-600 leading-relaxed">
+                        Desain form keren dengan teknologi hibrida. Dilengkapi fitur <b>Trust Badge</b>, <b>Scarcity Timer</b>, dan Integrasi Tracking Pixel (FB, TikTok, Google) otomatis untuk memaksimalkan ROAS iklan Anda.
+                    </p>
+                    <ul class="space-y-3 font-medium text-slate-700">
+                        <li class="flex items-center gap-3"><i class="ph-bold ph-check-circle text-emerald-500 text-xl"></i> 10 Jenis Field Kustom</li>
+                        <li class="flex items-center gap-3"><i class="ph-bold ph-check-circle text-emerald-500 text-xl"></i> Kalkulasi Total Tagihan Real-time</li>
+                        <li class="flex items-center gap-3"><i class="ph-bold ph-check-circle text-emerald-500 text-xl"></i> Tema Warna Gradient & Glassmorphism</li>
+                    </ul>
+                </div>
+                <!-- PLACEHOLDER IMAGE FITUR 1 -->
+                <div class="order-1 md:order-2 bg-slate-100 aspect-square md:aspect-[4/3] rounded-3xl border border-slate-200 flex flex-col items-center justify-center p-6 animate-float-delayed shadow-lg relative overflow-hidden">
+                    <i class="ph-fill ph-magic-wand text-slate-300 text-5xl mb-2"></i>
+                    <p class="text-slate-400 font-mono text-xs text-center">[GAMBAR PREVIEW BUILDER FORM]</p>
+                </div>
+            </div>
+
+            <!-- Fitur 2 -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12 items-center mb-20">
+                <!-- PLACEHOLDER IMAGE FITUR 2 -->
+                <div class="bg-slate-100 aspect-square md:aspect-[4/3] rounded-3xl border border-slate-200 flex flex-col items-center justify-center p-6 animate-float shadow-lg relative overflow-hidden">
+                    <i class="ph-fill ph-users-three text-slate-300 text-5xl mb-2"></i>
+                    <p class="text-slate-400 font-mono text-xs text-center">[GAMBAR SMART CRM]</p>
+                </div>
+                <div class="space-y-6">
+                    <div class="w-14 h-14 bg-purple-50 text-purple-600 rounded-2xl flex items-center justify-center text-2xl shadow-sm">
+                        <i class="ph-fill ph-database"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-slate-900">Smart CRM & Auto-Capture</h3>
+                    <p class="text-slate-600 leading-relaxed">
+                        Jangan biarkan traffic Anda terbuang! Fitur <b>Auto-Capture</b> merekam nomor secara diam-diam meskipun kustomer tidak menekan tombol submit. Database lengkap untuk di-follow up nanti.
+                    </p>
+                    <ul class="space-y-3 font-medium text-slate-700">
+                        <li class="flex items-center gap-3"><i class="ph-bold ph-check-circle text-emerald-500 text-xl"></i> Perekaman Status "Unfinished"</li>
+                        <li class="flex items-center gap-3"><i class="ph-bold ph-check-circle text-emerald-500 text-xl"></i> Smart Tagging Berdasarkan Campaign</li>
+                        <li class="flex items-center gap-3"><i class="ph-bold ph-check-circle text-emerald-500 text-xl"></i> Validasi Anti-Spam Nomor Palsu</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Fitur 3 -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12 items-center">
+                <div class="order-2 md:order-1 space-y-6">
+                    <div class="w-14 h-14 bg-emerald-50 text-emerald-600 rounded-2xl flex items-center justify-center text-2xl shadow-sm">
+                        <i class="ph-fill ph-paper-plane-right"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-slate-900">Campaign Center & Sequence WA</h3>
+                    <p class="text-slate-600 leading-relaxed">
+                        Broadcast aman tanpa takut terblokir! Gunakan <b>Sistem Antrean Latar Belakang</b>. Buat skenario pesan berantai otomatis (H+1, H+2) yang akan berhenti otomatis jika kustomer sudah lunas.
+                    </p>
+                    <ul class="space-y-3 font-medium text-slate-700">
+                        <li class="flex items-center gap-3"><i class="ph-bold ph-check-circle text-emerald-500 text-xl"></i> Template Engine Copywriting Tersimpan</li>
+                        <li class="flex items-center gap-3"><i class="ph-bold ph-check-circle text-emerald-500 text-xl"></i> Dukungan Kirim URL Media (Gambar)</li>
+                        <li class="flex items-center gap-3"><i class="ph-bold ph-check-circle text-emerald-500 text-xl"></i> Tembak Berdasarkan Kategori CRM (Tag)</li>
+                    </ul>
+                </div>
+                <!-- PLACEHOLDER IMAGE FITUR 3 -->
+                <div class="order-1 md:order-2 bg-slate-100 aspect-square md:aspect-[4/3] rounded-3xl border border-slate-200 flex flex-col items-center justify-center p-6 animate-float-delayed shadow-lg relative overflow-hidden">
+                    <i class="ph-fill ph-rocket-launch text-slate-300 text-5xl mb-2"></i>
+                    <p class="text-slate-400 font-mono text-xs text-center">[GAMBAR BROADCAST & SEQUENCE]</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- BIG CTA SECTION -->
+    <section class="py-24 px-6 relative bg-white">
+        <div class="max-w-5xl mx-auto bg-slate-900 rounded-[40px] p-10 md:p-16 text-center relative overflow-hidden shadow-2xl">
+            <!-- Dekorasi CTA -->
+            <div class="absolute top-0 right-0 w-64 h-64 bg-rose-500 rounded-full blur-[80px] opacity-30 pointer-events-none transform translate-x-1/2 -translate-y-1/2"></div>
+            <div class="absolute bottom-0 left-0 w-64 h-64 bg-blue-500 rounded-full blur-[80px] opacity-30 pointer-events-none transform -translate-x-1/2 translate-y-1/2"></div>
+
+            <div class="relative z-10">
+                <h2 class="text-3xl md:text-5xl font-extrabold text-white mb-6">Siap Merevolusi Sistem Follow-Up Anda?</h2>
+                <p class="text-slate-400 text-lg mb-10 max-w-2xl mx-auto">
+                    Berhenti membuang waktu secara manual. Biarkan sistem bekerja 24/7 di balik layar menjaring leads dan mengonversi penjualan Anda otomatis via WhatsApp.
+                </p>
+                
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <!-- GANTI LINK CTA BAWAH DI SINI -->
+                    <a href="[MASUKKAN_LINK_CHECKOUT_DI_SINI]" class="px-10 py-5 bg-white text-slate-900 hover:bg-slate-100 font-bold rounded-2xl shadow-xl transition transform hover:scale-105 text-lg flex items-center justify-center gap-2">
+                        Dapatkan Akses Pro Sekarang <i class="ph-bold ph-arrow-right text-rose-500"></i>
+                    </a>
+                </div>
+                <p class="text-xs text-slate-500 mt-6"><i class="ph-bold ph-lock-key"></i> 100% Database Aman di Google Akun Anda</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-white border-t border-slate-200 py-10">
+        <div class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-4">
+            <div class="flex items-center gap-2 opacity-80">
+                <i class="ph-fill ph-paper-plane-tilt text-xl text-rose-500"></i>
+                <span class="font-bold text-lg text-slate-800">iMers<span class="text-rose-500">FOW</span></span>
+            </div>
+            
+            <p class="text-sm font-medium text-slate-500">
+                <a href="https://imersnesia.com" target="_blank" class="hover:text-rose-500 transition">
+                    developed with ❤️ by Terry Katar
+                </a>
+            </p>
+        </div>
+    </footer>
+
+</body>
+</html>
